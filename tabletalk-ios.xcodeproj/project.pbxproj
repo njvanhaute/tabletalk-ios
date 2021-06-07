@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		955BFF7E266EE5D7007E4744 /* tabletalk_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BFF7D266EE5D7007E4744 /* tabletalk_iosApp.swift */; };
+		955BFF80266EE5D7007E4744 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BFF7F266EE5D7007E4744 /* ContentView.swift */; };
+		955BFF82266EE5DB007E4744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955BFF81266EE5DB007E4744 /* Assets.xcassets */; };
+		955BFF85266EE5DB007E4744 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955BFF84266EE5DB007E4744 /* Preview Assets.xcassets */; };
+		955BFF90266EE5DC007E4744 /* tabletalk_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BFF8F266EE5DC007E4744 /* tabletalk_iosTests.swift */; };
+		955BFF9B266EE5DC007E4744 /* tabletalk_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BFF9A266EE5DC007E4744 /* tabletalk_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		955BFF8C266EE5DC007E4744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 955BFF72266EE5D7007E4744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 955BFF79266EE5D7007E4744;
+			remoteInfo = "tabletalk-ios";
+		};
+		955BFF97266EE5DC007E4744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 955BFF72266EE5D7007E4744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 955BFF79266EE5D7007E4744;
+			remoteInfo = "tabletalk-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		955BFF7A266EE5D7007E4744 /* tabletalk-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tabletalk-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		955BFF7D266EE5D7007E4744 /* tabletalk_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabletalk_iosApp.swift; sourceTree = "<group>"; };
+		955BFF7F266EE5D7007E4744 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		955BFF81266EE5DB007E4744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		955BFF84266EE5DB007E4744 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		955BFF86266EE5DB007E4744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		955BFF8B266EE5DC007E4744 /* tabletalk-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tabletalk-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		955BFF8F266EE5DC007E4744 /* tabletalk_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabletalk_iosTests.swift; sourceTree = "<group>"; };
+		955BFF91266EE5DC007E4744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		955BFF96266EE5DC007E4744 /* tabletalk-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tabletalk-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		955BFF9A266EE5DC007E4744 /* tabletalk_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabletalk_iosUITests.swift; sourceTree = "<group>"; };
+		955BFF9C266EE5DC007E4744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		955BFF77266EE5D7007E4744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955BFF88266EE5DC007E4744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955BFF93266EE5DC007E4744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		955BFF71266EE5D7007E4744 = {
+			isa = PBXGroup;
+			children = (
+				955BFF7C266EE5D7007E4744 /* tabletalk-ios */,
+				955BFF8E266EE5DC007E4744 /* tabletalk-iosTests */,
+				955BFF99266EE5DC007E4744 /* tabletalk-iosUITests */,
+				955BFF7B266EE5D7007E4744 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		955BFF7B266EE5D7007E4744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				955BFF7A266EE5D7007E4744 /* tabletalk-ios.app */,
+				955BFF8B266EE5DC007E4744 /* tabletalk-iosTests.xctest */,
+				955BFF96266EE5DC007E4744 /* tabletalk-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		955BFF7C266EE5D7007E4744 /* tabletalk-ios */ = {
+			isa = PBXGroup;
+			children = (
+				955BFF7D266EE5D7007E4744 /* tabletalk_iosApp.swift */,
+				955BFF7F266EE5D7007E4744 /* ContentView.swift */,
+				955BFF81266EE5DB007E4744 /* Assets.xcassets */,
+				955BFF86266EE5DB007E4744 /* Info.plist */,
+				955BFF83266EE5DB007E4744 /* Preview Content */,
+			);
+			path = "tabletalk-ios";
+			sourceTree = "<group>";
+		};
+		955BFF83266EE5DB007E4744 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				955BFF84266EE5DB007E4744 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		955BFF8E266EE5DC007E4744 /* tabletalk-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				955BFF8F266EE5DC007E4744 /* tabletalk_iosTests.swift */,
+				955BFF91266EE5DC007E4744 /* Info.plist */,
+			);
+			path = "tabletalk-iosTests";
+			sourceTree = "<group>";
+		};
+		955BFF99266EE5DC007E4744 /* tabletalk-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				955BFF9A266EE5DC007E4744 /* tabletalk_iosUITests.swift */,
+				955BFF9C266EE5DC007E4744 /* Info.plist */,
+			);
+			path = "tabletalk-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		955BFF79266EE5D7007E4744 /* tabletalk-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 955BFF9F266EE5DC007E4744 /* Build configuration list for PBXNativeTarget "tabletalk-ios" */;
+			buildPhases = (
+				955BFF76266EE5D7007E4744 /* Sources */,
+				955BFF77266EE5D7007E4744 /* Frameworks */,
+				955BFF78266EE5D7007E4744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tabletalk-ios";
+			productName = "tabletalk-ios";
+			productReference = 955BFF7A266EE5D7007E4744 /* tabletalk-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		955BFF8A266EE5DC007E4744 /* tabletalk-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 955BFFA2266EE5DC007E4744 /* Build configuration list for PBXNativeTarget "tabletalk-iosTests" */;
+			buildPhases = (
+				955BFF87266EE5DC007E4744 /* Sources */,
+				955BFF88266EE5DC007E4744 /* Frameworks */,
+				955BFF89266EE5DC007E4744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				955BFF8D266EE5DC007E4744 /* PBXTargetDependency */,
+			);
+			name = "tabletalk-iosTests";
+			productName = "tabletalk-iosTests";
+			productReference = 955BFF8B266EE5DC007E4744 /* tabletalk-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		955BFF95266EE5DC007E4744 /* tabletalk-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 955BFFA5266EE5DC007E4744 /* Build configuration list for PBXNativeTarget "tabletalk-iosUITests" */;
+			buildPhases = (
+				955BFF92266EE5DC007E4744 /* Sources */,
+				955BFF93266EE5DC007E4744 /* Frameworks */,
+				955BFF94266EE5DC007E4744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				955BFF98266EE5DC007E4744 /* PBXTargetDependency */,
+			);
+			name = "tabletalk-iosUITests";
+			productName = "tabletalk-iosUITests";
+			productReference = 955BFF96266EE5DC007E4744 /* tabletalk-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		955BFF72266EE5D7007E4744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					955BFF79266EE5D7007E4744 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					955BFF8A266EE5DC007E4744 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 955BFF79266EE5D7007E4744;
+					};
+					955BFF95266EE5DC007E4744 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 955BFF79266EE5D7007E4744;
+					};
+				};
+			};
+			buildConfigurationList = 955BFF75266EE5D7007E4744 /* Build configuration list for PBXProject "tabletalk-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 955BFF71266EE5D7007E4744;
+			productRefGroup = 955BFF7B266EE5D7007E4744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				955BFF79266EE5D7007E4744 /* tabletalk-ios */,
+				955BFF8A266EE5DC007E4744 /* tabletalk-iosTests */,
+				955BFF95266EE5DC007E4744 /* tabletalk-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		955BFF78266EE5D7007E4744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955BFF85266EE5DB007E4744 /* Preview Assets.xcassets in Resources */,
+				955BFF82266EE5DB007E4744 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955BFF89266EE5DC007E4744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955BFF94266EE5DC007E4744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		955BFF76266EE5D7007E4744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955BFF80266EE5D7007E4744 /* ContentView.swift in Sources */,
+				955BFF7E266EE5D7007E4744 /* tabletalk_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955BFF87266EE5DC007E4744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955BFF90266EE5DC007E4744 /* tabletalk_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955BFF92266EE5DC007E4744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955BFF9B266EE5DC007E4744 /* tabletalk_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		955BFF8D266EE5DC007E4744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 955BFF79266EE5D7007E4744 /* tabletalk-ios */;
+			targetProxy = 955BFF8C266EE5DC007E4744 /* PBXContainerItemProxy */;
+		};
+		955BFF98266EE5DC007E4744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 955BFF79266EE5D7007E4744 /* tabletalk-ios */;
+			targetProxy = 955BFF97266EE5DC007E4744 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		955BFF9D266EE5DC007E4744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		955BFF9E266EE5DC007E4744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		955BFFA0266EE5DC007E4744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"tabletalk-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = WVJP5ML3J6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "tabletalk-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.njvanhaute.tabletalk-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		955BFFA1266EE5DC007E4744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"tabletalk-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = WVJP5ML3J6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "tabletalk-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.njvanhaute.tabletalk-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		955BFFA3266EE5DC007E4744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVJP5ML3J6;
+				INFOPLIST_FILE = "tabletalk-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.njvanhaute.tabletalk-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tabletalk-ios.app/tabletalk-ios";
+			};
+			name = Debug;
+		};
+		955BFFA4266EE5DC007E4744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVJP5ML3J6;
+				INFOPLIST_FILE = "tabletalk-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.njvanhaute.tabletalk-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tabletalk-ios.app/tabletalk-ios";
+			};
+			name = Release;
+		};
+		955BFFA6266EE5DC007E4744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVJP5ML3J6;
+				INFOPLIST_FILE = "tabletalk-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.njvanhaute.tabletalk-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tabletalk-ios";
+			};
+			name = Debug;
+		};
+		955BFFA7266EE5DC007E4744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVJP5ML3J6;
+				INFOPLIST_FILE = "tabletalk-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.njvanhaute.tabletalk-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tabletalk-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		955BFF75266EE5D7007E4744 /* Build configuration list for PBXProject "tabletalk-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955BFF9D266EE5DC007E4744 /* Debug */,
+				955BFF9E266EE5DC007E4744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		955BFF9F266EE5DC007E4744 /* Build configuration list for PBXNativeTarget "tabletalk-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955BFFA0266EE5DC007E4744 /* Debug */,
+				955BFFA1266EE5DC007E4744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		955BFFA2266EE5DC007E4744 /* Build configuration list for PBXNativeTarget "tabletalk-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955BFFA3266EE5DC007E4744 /* Debug */,
+				955BFFA4266EE5DC007E4744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		955BFFA5266EE5DC007E4744 /* Build configuration list for PBXNativeTarget "tabletalk-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955BFFA6266EE5DC007E4744 /* Debug */,
+				955BFFA7266EE5DC007E4744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 955BFF72266EE5D7007E4744 /* Project object */;
+}
