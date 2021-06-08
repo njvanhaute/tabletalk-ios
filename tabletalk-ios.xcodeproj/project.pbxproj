@@ -95,8 +95,10 @@
 		955BFF7C266EE5D7007E4744 /* tabletalk-ios */ = {
 			isa = PBXGroup;
 			children = (
+				955BFFAA266EE987007E4744 /* Models */,
+				955BFFA9266EE980007E4744 /* ViewModels */,
+				955BFFA8266EE978007E4744 /* Views */,
 				955BFF7D266EE5D7007E4744 /* tabletalk_iosApp.swift */,
-				955BFF7F266EE5D7007E4744 /* ContentView.swift */,
 				955BFF81266EE5DB007E4744 /* Assets.xcassets */,
 				955BFF86266EE5DB007E4744 /* Info.plist */,
 				955BFF83266EE5DB007E4744 /* Preview Content */,
@@ -128,6 +130,28 @@
 				955BFF9C266EE5DC007E4744 /* Info.plist */,
 			);
 			path = "tabletalk-iosUITests";
+			sourceTree = "<group>";
+		};
+		955BFFA8266EE978007E4744 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				955BFF7F266EE5D7007E4744 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		955BFFA9266EE980007E4744 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		955BFFAA266EE987007E4744 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
