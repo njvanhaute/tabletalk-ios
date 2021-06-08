@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    var webSocketManager: WSManager = .init(session: URLSession(configuration: .default))
+    
     var body: some View {
         Text("Hello, world!")
             .padding()
